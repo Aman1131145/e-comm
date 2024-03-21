@@ -1,0 +1,51 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 24px 64px 24px 64px;
+    gap: 80px;
+    opacity: 0px;
+    background: #2f302c;
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        opacity: 0px;
+        img {
+            width: 23px;
+            height: 22.94px;
+            top: 10.24px;
+            gap: 0px;
+            opacity: 0px;
+            background: #ffffff;
+        }
+        p {
+            top: 1px;
+            left: 29px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Lato;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 20px;
+            text-align: left;
+            color: #ffffff;
+        }
+    }
+    .right-tab {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .search {
+            .input-box {
+                background-color: #2f302c;
+                text-decoration: none;
+            }
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
